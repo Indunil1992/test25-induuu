@@ -1,0 +1,106 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "a1dfe639-9a08-4ade-9f23-61634b754cd5": {
+        "id": "a1dfe639-9a08-4ade-9f23-61634b754cd5",
+        "parent": null,
+        "name": "test25-induuu.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test25-induuu.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "test25Induuu"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigqueryindunfdfdfilqatstany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1613542097631,
+        "testCases": {
+          "7d901ddc-641d-47a6-a5f1-ede48152a26b": {
+            "id": "7d901ddc-641d-47a6-a5f1-ede48152a26b",
+            "name": "Test event",
+            "functionId": "a1dfe639-9a08-4ade-9f23-61634b754cd5",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "a1dfe639-9a08-4ade-9f23-61634b754cd5"
+    ],
+    "currentFileId": "a1dfe639-9a08-4ade-9f23-61634b754cd5",
+    "resources": {
+      "apigqueryindunfdfdfilqatstany": {
+        "name": "apigqueryindunfdfdfilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "query",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "indunfdfdfil/qa/tst",
+          "resourcePath": "/indunfdfdfil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test123s",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.6.1",
+    "projectName": "test25-induuu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1613547613393
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "test25-induuu",
+      "url": "https://github.com/Indunil1992/test25-induuu"
+    }
+  }
+}
